@@ -84,6 +84,7 @@ const ActionGroupDesktop = styled(ActionGroup)`
 
   @media ${QUERIES.laptopAndUp} {
     display: flex;
+    flex: 2;
   }
 `;
 
@@ -91,10 +92,11 @@ const ActionGroupLink = styled(ActionGroup)`
   display: none;
 
   @media ${QUERIES.laptopAndUp} {
-    display: flex;
-    flex-direction: column;
-    gap: 0;
-    align-items: center;
+    flex: 2;
+    display: grid;
+    gap: 8px;
+    justify-content: end;
+    justify-items: center;
   }
 `;
 

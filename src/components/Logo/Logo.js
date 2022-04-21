@@ -16,6 +16,11 @@ const Logo = (props) => {
 
 const Wrapper = styled.div`
   text-align: center;
+
+  @media ${QUERIES.laptopAndUp} {
+    min-width: fit-content;
+    flex: 1;
+  }
 `;
 
 const Link = styled.a`
